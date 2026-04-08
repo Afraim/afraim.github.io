@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Md. Afraim Bin Zahangir — Full-Stack Developer, Python/Django Engineer, CSE Researcher, and Coding Educator based in Dhaka, Bangladesh.">
+  <meta name="keywords" content="Afraim Zahangir, full stack developer, Django, Python, Bangladesh, web developer, coding instructor">
+  <meta property="og:title" content="Afraim Zahangir — Full-Stack Developer & Researcher">
+  <meta property="og:description" content="Portfolio of Md. Afraim Bin Zahangir — Django, Python, JavaScript, IoT, Published Researcher, 4500+ classes taught.">
+  <meta property="og:image" content="https://afraim.github.io/AfraimZahangir/img/profile.png">
+  <meta property="og:url" content="https://afraim.github.io/AfraimZahangir">
+  <title>Afraim Zahangir — Full-Stack Developer & Researcher</title>
+  <link rel="icon" href="img/profile.png" type="image/png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Cursor glow -->
+<div id="cursor-glow"></div>
+
+<!-- ═══════════════════════════════════════
+     NAVIGATION
+═══════════════════════════════════════ -->
+<nav id="main-nav">
+  <div class="container nav-inner">
+    <a href="#hero" class="nav-logo">Afraim<span>.</span></a>
+
+    <ul class="nav-links">
+      <li><a href="#about"      class="nav-link">About</a></li>
+      <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#projects"   class="nav-link">Projects</a></li>
+      <li><a href="#skills"     class="nav-link">Skills</a></li>
+      <li><a href="#research"   class="nav-link">Research</a></li>
+      <li><a href="#contact"    class="nav-link nav-cta">Hire Me</a></li>
+    </ul>
+
+    <button id="menu-btn" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile menu -->
+<div id="mobile-menu">
+  <a href="#about"      class="mobile-nav-link">About</a>
+  <a href="#experience" class="mobile-nav-link">Experience</a>
+  <a href="#projects"   class="mobile-nav-link">Projects</a>
+  <a href="#skills"     class="mobile-nav-link">Skills</a>
+  <a href="#research"   class="mobile-nav-link">Research</a>
+  <a href="#awards"     class="mobile-nav-link">Awards</a>
+  <a href="#contact"    class="mobile-nav-link">Contact</a>
+</div>
+
+<!-- ═══════════════════════════════════════
+     HERO
+═══════════════════════════════════════ -->
+<section id="hero">
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+
+  <div class="container">
+    <div class="hero-inner">
+      <!-- Left: text -->
+      <div class="hero-text">
+        <p class="hero-eyebrow">Based in Dhaka, Bangladesh</p>
+        <h1 class="hero-name">
+          <span class="first">Md. Afraim<br></span>
+          <span class="last">Zahangir</span>
+        </h1>
+        <p class="hero-typed"><span id="typed-text"></span></p>
+        <p class="hero-desc">
+          Full-stack developer, MSc Computer Science (Data Science), Springer-published researcher,
+          and passionate coding educator who has delivered <strong>4,500+ classes</strong>.
+          I build things that matter — from HRM systems to IoT automation.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn-primary">
+            View My Work
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="https://drive.google.com/uc?export=download&id=11OxhjkvjUa_lJNaZw2yB2lQA7m58at49" class="btn-secondary" target="_blank">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Download CV
+          </a>
+        </div>
+
+        <!-- Stats -->
+        <div class="stats-row reveal">
+          <div class="stat-item">
+            <span class="stat-number" data-target="4500" data-suffix="+">0</span>
+            <span class="stat-label">Classes Taught</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="20" data-suffix="+">0</span>
+            <span class="stat-label">Client Projects</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="2" data-suffix="+">0</span>
+            <span class="stat-label">Years Developing</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="4" data-suffix="+">0</span>
+            <span class="stat-label">Years Teaching</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="15" data-suffix="+">0</span>
+            <span class="stat-label">Certifications</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: photo -->
+      <div class="hero-photo-wrap reveal reveal-d1">
+        <div class="hero-photo-frame">
+          <img src="img/profile.png" alt="Md. Afraim Bin Zahangir">
+        </div>
+        <div class="hero-photo-badge">
+          <div class="badge-text">MSCSE</div>
+          <div class="badge-text">BSc CSE · Cum Laude</div>
+        </div>
+        <div class="hero-dots"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     ABOUT
+═══════════════════════════════════════ -->
+<section id="about" class="section-pad">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">Who I Am</span>
+      <h2 class="section-title">Passionate about <span>code & education</span></h2>
+      <p class="section-desc">Developer by profession, educator by heart — I bridge the gap between complex technology and real-world solutions.</p>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>I'm <strong>Md. Afraim Bin Zahangir</strong>, a Computer Science professional from Dhaka, Bangladesh with an MSc in Data Science from United International University and a BSc (Cum Laude) from ULAB.</p>
+        <p>My journey spans <strong>full-stack web development</strong> (Django + PostgreSQL on the backend, HTML/CSS/JS on the front), <strong>IoT systems</strong> (Arduino + Firebase), and a deep love for <strong>teaching programming</strong> — I've delivered over 4,500 classes to students from age 6 to university level.</p>
+        <p>Beyond code, I'm a <strong>Springer-published researcher</strong> in IoT automation, an <strong>award-winning sci-fi writer</strong>, and a casual mobile photographer who finds beauty in sunsets and bees.</p>
+
+        <div class="about-highlights">
+          <div class="highlight-item"><div class="highlight-dot"></div> MSc in Data Science | BSc in Computer Science & Engineering </div>
+          <div class="highlight-item"><div class="highlight-dot"></div> Full Stack Developer (Django, React, WordPress)</div>
+          <div class="highlight-item"><div class="highlight-dot"></div> Built HRM Systems, SaaS Apps & 20+ Client Websites</div>
+          <div class="highlight-item"><div class="highlight-dot"></div> Published Research in IoT (Springer, 2022)</div>
+          <div class="highlight-item"><div class="highlight-dot"></div> Award-Winning Developer (IEEE Competition Winner)</div>
+          <div class="highlight-item"><div class="highlight-dot"></div> Available for Freelance & Full-Time Opportunities</div>
+        </div>
+      </div>
+
+      <div class="about-cards reveal reveal-d2">
+        <div class="about-card">
+          <div class="about-card-icon">⚡</div>
+          <h4>Full-Stack Development</h4>
+          <p>Django + PostgreSQL backends, responsive JS/CSS frontends, RESTful APIs, and production deployment for real clients.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-card-icon">🎓</div>
+          <h4>Education & Mentorship</h4>
+          <p>4+ years teaching programming from Scratch to Python. Trained 10+ educators. Over 200 student projects published online.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-card-icon">🔬</div>
+          <h4>Research & IoT</h4>
+          <p>Published IoT researcher (Springer). Ongoing AI research in digital marketing optimization and educational systems.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-card-icon">✍️</div>
+          <h4>Creative &amp; Multidisciplinary</h4>
+          <p>Award-winning sci-fi writer. Mobile photographer. Game developer on itch.io. A developer with a storyteller's mind.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     EXPERIENCE
+═══════════════════════════════════════ -->
+<section id="experience" class="section-pad" style="background: var(--bg2);">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">Career</span>
+      <h2 class="section-title">Professional <span>Experience</span></h2>
+      <p class="section-desc">Click any role to expand details.</p>
+    </div>
+
+    <div class="timeline reveal">
+      <div class="timeline-item">
+        <div class="timeline-card">
+          <div class="timeline-meta">
+            <span class="timeline-period">Mar 2023 – Jul 2024</span>
+            <span class="timeline-type">Part-Time</span>
+          </div>
+          <div class="timeline-role">Branch Teacher Leader</div>
+          <div class="timeline-org">Timedoor Coding Academy</div>
+          <p class="timeline-expand-hint">↓ click to expand</p>
+          <div class="timeline-details">
+            <ul>
+              <li>Led upskilling of 10+ educators in curriculum paradigms and pedagogical best practices</li>
+              <li>Created and curated dynamic course materials aligned with institutional standards</li>
+              <li>Implemented monitoring mechanisms to track student progress and drive learner success</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-card">
+          <div class="timeline-meta">
+            <span class="timeline-period">Dec 2021 – Jul 2024</span>
+            <span class="timeline-type">Part-Time</span>
+          </div>
+          <div class="timeline-role">Online Programming Teacher</div>
+          <div class="timeline-org">Timedoor Coding Academy</div>
+          <p class="timeline-expand-hint">↓ click to expand</p>
+          <div class="timeline-details">
+            <ul>
+              <li>Delivered 3,500+ classes in both virtual and physical settings</li>
+              <li>Taught Scratch, Construct, HTML, CSS, JavaScript, and Python to young learners</li>
+              <li>Empowered students to publish 200+ projects online, fostering innovation and creativity</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-card">
+          <div class="timeline-meta">
+            <span class="timeline-period">Aug 2023 – Dec 2023</span>
+            <span class="timeline-type">Full-Time</span>
+          </div>
+          <div class="timeline-role">Lecturer</div>
+          <div class="timeline-org">United College of Aviation Science and Management</div>
+          <p class="timeline-expand-hint">↓ click to expand</p>
+          <div class="timeline-details">
+            <ul>
+              <li>Delivered 500+ classes across 10+ CSE subjects to students of varying levels</li>
+              <li>Facilitated 10+ skill development sessions for continuous professional growth</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-card">
+          <div class="timeline-meta">
+            <span class="timeline-period">Nov 2020 – May 2022</span>
+            <span class="timeline-type">Contract</span>
+          </div>
+          <div class="timeline-role">Teaching Assistant — Department of CSE</div>
+          <div class="timeline-org">University of Liberal Arts Bangladesh (ULAB)</div>
+          <p class="timeline-expand-hint">↓ click to expand</p>
+          <div class="timeline-details">
+            <ul>
+              <li>Curated and maintained materials for 5 distinct courses with consistency and quality</li>
+              <li>Conducted 500+ classes in online and offline modalities</li>
+              <li>Taught C++, Java, HTML, CSS, JavaScript, Python, and C# to university students</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-card">
+          <div class="timeline-meta">
+            <span class="timeline-period">Sep 2019 – Apr 2020</span>
+            <span class="timeline-type">Contract</span>
+          </div>
+          <div class="timeline-role">Peer Mentor</div>
+          <div class="timeline-org">ULAB Student Affairs Office</div>
+          <p class="timeline-expand-hint">↓ click to expand</p>
+          <div class="timeline-details">
+            <ul>
+              <li>Inducted new university students into ULAB culture for smooth transition</li>
+              <li>Resolved conflicts and addressed student dilemmas around complaints and disciplinary issues</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     PROJECTS
+═══════════════════════════════════════ -->
+<section id="projects" class="section-pad">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">Portfolio</span>
+      <h2 class="section-title">Projects &amp; <span>Work</span></h2>
+      <p class="section-desc">From enterprise HRM systems to IoT automation — real projects for real clients.</p>
+    </div>
+
+    <div class="filter-bar reveal">
+      <button class="filter-btn active" data-filter="all">All Projects</button>
+      <button class="filter-btn" data-filter="client">Client Work</button>
+      <button class="filter-btn" data-filter="personal">Personal</button>
+      <button class="filter-btn" data-filter="iot">IoT</button>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- Client: Incepta HRM -->
+      <div class="project-card reveal" data-category="client">
+        <div class="project-img">
+          <img src="img/InceptaHRM.png" alt="Incepta HRM System" loading="lazy"
+               onerror="this.parentElement.innerHTML='<div class=\'project-img-placeholder\'>🏢</div>'">
+        </div>
+        <div class="project-body">
+          <span class="project-type">Client Project · Enterprise</span>
+          <h3 class="project-title">Internal HRM System</h3>
+          <p class="project-client">Incepta Pharmaceuticals Ltd.</p>
+          <p class="project-desc">Full-featured HRM covering attendance, leave management, overtime, payroll, and employee records for one of Bangladesh's largest pharma companies.</p>
+          <div class="project-tags">
+            <span class="tag">Django</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">Python</span>
+            <span class="tag">HR Tech</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Client: AlumaVerse -->
+      <div class="project-card reveal reveal-d1" data-category="client">
+        <div class="project-img">
+          <img src="img/AlumaVerse.png" alt="AlumaVerse Railing Quote Generator" loading="lazy"
+               onerror="this.parentElement.innerHTML='<div class=\'project-img-placeholder\'>🔧</div>'">
+        </div>
+        <div class="project-body">
+          <span class="project-type">Client Project · Automation</span>
+          <h3 class="project-title">Railing Quote Generator</h3>
+          <p class="project-client">AlumaVerse</p>
+          <p class="project-desc">Dynamic material calculator and quotation generator for railing configurations with automated pricing logic, saving hours of manual work per quote.</p>
+          <div class="project-tags">
+            <span class="tag">JavaScript</span>
+            <span class="tag">Django</span>
+            <span class="tag">Automation</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Client: MisoVibes -->
+      <div class="project-card reveal reveal-d2" data-category="client">
+        <div class="project-img">
+          <img src="img/misovibes.png" alt="MisoVibes Website" loading="lazy"
+               onerror="this.parentElement.innerHTML='<div class=\'project-img-placeholder\'>🌐</div>'">
+        </div>
+        <div class="project-body">
+          <span class="project-type">Client Project · Web</span>
+          <h3 class="project-title">Custom Website</h3>
+          <p class="project-client">MisoVibes</p>
+          <p class="project-desc">Custom responsive website with optimized performance, modern design, and fluid user experience.</p>
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="https://misovibes.com/" class="project-link" target="_blank" rel="noopener">
+              Live Site ↗
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Client: BinaryCGI -->
+      <div class="project-card reveal" data-category="client">
+        <div class="project-img">
+          <img src="img/binaryCGIhome.png" alt="BinaryCGI Website" loading="lazy"
+               onerror="this.parentElement.innerHTML='<div class=\'project-img-placeholder\'>💼</div>'">
+        </div>
+        <div class="project-body">
+          <span class="project-type">Client Project · Corporate</span>
+          <h3 class="project-title">Company Profile Site</h3>
+          <p class="project-client">BinaryCGI</p>
+          <p class="project-desc">Professional company profile showcasing services, portfolio, and brand identity with clean, modern design.</p>
+          <div class="project-tags">
+            <span class="tag">WordPress</span>
+            <span class="tag">UI/UX</span>
+          </div>
+          <div class="project-links">
+            <a href="https://binarycgi.com/" class="project-link" target="_blank" rel="noopener">Live Site ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Client: Saz Vanity -->
+      <div class="project-card reveal reveal-d1" data-category="client">
+        <div class="project-img">
+          <img src="img/SazVanityhome.png" alt="Saz Vanity E-Commerce" loading="lazy"
+               onerror="this.parentElement.innerHTML='<div class=\'project-img-placeholder\'>🛒</div>'">
+        </div>
+        <div class="project-body">
+          <span class="project-type">Client Project · E-Commerce</span>
+          <h3 class="project-title">E-Commerce Store</h3>
+          <p class="project-client">Saz Vanity</p>
+          <p class="project-desc">Full-featured e-commerce store with product catalog, shopping cart, and secure checkout flow for a beauty brand.</p>
+          <div class="project-tags">
+            <span class="tag">WordPress</span>
+            <span class="tag">WooCommerce</span>
+            <span class="tag">E-Commerce</span>
+          </div>
+          <div class="project-links">
+            <a href="https://sazvanity.com/" class="project-link" target="_blank" rel="noopener">Live Site ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Client: Solar Home BD -->
+      <div class="project-card reveal reveal-d2" data-category="client">
+        <div class="project-img">
+          <img src="img/solarhomebdHome.png" alt="Solar Home BD" loading="lazy"
+               onerror="this.parentElement.innerHTML='<div class=\'project-img-placeholder\'>☀️</div>'">
+        </div>
+        <div class="project-body">
+          <span class="project-type">Client Project · Corporate</span>
+          <h3 class="project-title">Company Profile</h3>
+          <p class="project-client">Solar Home BD</p>
+          <p class="project-desc">Clean and professional company profile for a solar energy solutions provider, emphasizing trust and sustainability.</p>
+          <div class="project-tags">
+            <span class="tag">WordPress</span>
+            <span class="tag">Corporate</span>
+          </div>
+          <div class="project-links">
+            <a href="https://solarhomebd.com/" class="project-link" target="_blank" rel="noopener">Live Site ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Client: Unida Furnishers -->
+      <div class="project-card reveal" data-category="client">
+        <div class="project-img">
+          <img src="img/unidaHome.png" alt="Unida Furnishers" loading="lazy"
+               onerror="this.parentElement.innerHTML='<div class=\'project-img-placeholder\'>🛋️</div>'">
+        </div>
+        <div class="project-body">
+          <span class="project-type">Client Project · E-Commerce</span>
+          <h3 class="project-title">Furniture E-Commerce</h3>
+          <p class="project-client">Unida Furnishers</p>
+          <p class="project-desc">Furniture e-commerce site with product gallery, order system, and a user-friendly browsing experience.</p>
+          <div class="project-tags">
+            <span class="tag">WordPress</span>
+            <span class="tag">WooCommerce</span>
+          </div>
+          <div class="project-links">
+            <a href="https://www.unidafurnishers.com/" class="project-link" target="_blank" rel="noopener">Live Site ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Personal: Arduino Water Tank -->
+      <div class="project-card reveal reveal-d1" data-category="iot">
+        <div class="project-img">
+          <img src="img/circuit diagram.png" alt="Arduino Water Tank IoT" loading="lazy"
+               onerror="this.parentElement.innerHTML='<div class=\'project-img-placeholder\'>🔌</div>'">
+        </div>
+        <div class="project-body">
+          <span class="project-type">IoT · Personal Project</span>
+          <h3 class="project-title">Home Water Tank Automation</h3>
+          <p class="project-desc">IoT-based water tank monitoring and automation system using Arduino, Firebase Realtime DB, and a Java Android app for remote control.</p>
+          <div class="project-tags">
+            <span class="tag">Arduino</span>
+            <span class="tag">Firebase</span>
+            <span class="tag">Java</span>
+            <span class="tag">IoT</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Afraim/ARC" class="project-link" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Personal: FlipBook -->
+      <div class="project-card reveal reveal-d2" data-category="personal">
+        <div class="project-img">
+          <img src="img/FlipBook.JPG" alt="FlipBook" loading="lazy"
+               onerror="this.parentElement.innerHTML='<div class=\'project-img-placeholder\'>📖</div>'">
+        </div>
+        <div class="project-body">
+          <span class="project-type">Personal · Frontend</span>
+          <h3 class="project-title">FlipBook</h3>
+          <p class="project-desc">Interactive digital flipbook with smooth page-turn animations built entirely in vanilla HTML, CSS, and JavaScript.</p>
+          <div class="project-tags">
+            <span class="tag">JavaScript</span>
+            <span class="tag">HTML/CSS</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Afraim/flipBook" class="project-link" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Personal: Doctor's Desk -->
+      <div class="project-card reveal" data-category="personal">
+        <div class="project-img">
+          <img src="img/good doctor.JPG" alt="Doctor's Desk" loading="lazy"
+               onerror="this.parentElement.innerHTML='<div class=\'project-img-placeholder\'>🏥</div>'">
+        </div>
+        <div class="project-body">
+          <span class="project-type">Personal · Desktop App</span>
+          <h3 class="project-title">Doctor's Desk</h3>
+          <p class="project-desc">Desktop medical management system for doctors' daily workflows — patient records, appointments, and notes built in C# and SQL.</p>
+          <div class="project-tags">
+            <span class="tag">C#</span>
+            <span class="tag">SQL</span>
+            <span class="tag">Desktop</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Afraim/doctor_s-desk" class="project-link" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     SKILLS
+═══════════════════════════════════════ -->
+<section id="skills" class="section-pad" style="background: var(--bg2);">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">Toolkit</span>
+      <h2 class="section-title">Skills &amp; <span>Technologies</span></h2>
+    </div>
+
+    <div class="skills-grid reveal">
+
+      <div class="skill-group">
+        <div class="skill-group-title">Backend / Python</div>
+        <div class="skill-item">
+          <div class="skill-top"><span class="skill-name">Python</span><span class="skill-pct">90%</span></div>
+          <div class="skill-bar"><div class="skill-fill skill-fill-blue" data-width="90%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-top"><span class="skill-name">Django</span><span class="skill-pct">85%</span></div>
+          <div class="skill-bar"><div class="skill-fill skill-fill-blue" data-width="85%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-top"><span class="skill-name">PostgreSQL</span><span class="skill-pct">80%</span></div>
+          <div class="skill-bar"><div class="skill-fill skill-fill-blue" data-width="80%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-top"><span class="skill-name">PHP</span><span class="skill-pct">70%</span></div>
+          <div class="skill-bar"><div class="skill-fill skill-fill-blue" data-width="70%"></div></div>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <div class="skill-group-title">Frontend</div>
+        <div class="skill-item">
+          <div class="skill-top"><span class="skill-name">HTML5 / CSS3</span><span class="skill-pct">92%</span></div>
+          <div class="skill-bar"><div class="skill-fill skill-fill-violet" data-width="92%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-top"><span class="skill-name">JavaScript</span><span class="skill-pct">85%</span></div>
+          <div class="skill-bar"><div class="skill-fill skill-fill-violet" data-width="85%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-top"><span class="skill-name">Bootstrap</span><span class="skill-pct">88%</span></div>
+          <div class="skill-bar"><div class="skill-fill skill-fill-violet" data-width="88%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-top"><span class="skill-name">WordPress</span><span class="skill-pct">85%</span></div>
+          <div class="skill-bar"><div class="skill-fill skill-fill-violet" data-width="85%"></div></div>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <div class="skill-group-title">Other Languages</div>
+        <div class="skill-item">
+          <div class="skill-top"><span class="skill-name">C / C++</span><span class="skill-pct">78%</span></div>
+          <div class="skill-bar"><div class="skill-fill skill-fill-green" data-width="78%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-top"><span class="skill-name">C# / .NET</span><span class="skill-pct">75%</span></div>
+          <div class="skill-bar"><div class="skill-fill skill-fill-green" data-width="75%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-top"><span class="skill-name">Java</span><span class="skill-pct">72%</span></div>
+          <div class="skill-bar"><div class="skill-fill skill-fill-green" data-width="72%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-top"><span class="skill-name">SQL</span><span class="skill-pct">82%</span></div>
+          <div class="skill-bar"><div class="skill-fill skill-fill-green" data-width="82%"></div></div>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <div class="skill-group-title">Tools &amp; Platforms</div>
+        <div class="skill-item">
+          <div class="skill-top"><span class="skill-name">Git / GitHub</span><span class="skill-pct">88%</span></div>
+          <div class="skill-bar"><div class="skill-fill skill-fill-blue" data-width="88%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-top"><span class="skill-name">Firebase</span><span class="skill-pct">80%</span></div>
+          <div class="skill-bar"><div class="skill-fill skill-fill-blue" data-width="80%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-top"><span class="skill-name">Arduino / IoT</span><span class="skill-pct">75%</span></div>
+          <div class="skill-bar"><div class="skill-fill skill-fill-blue" data-width="75%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-top"><span class="skill-name">Power BI</span><span class="skill-pct">68%</span></div>
+          <div class="skill-bar"><div class="skill-fill skill-fill-blue" data-width="68%"></div></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     RESEARCH
+═══════════════════════════════════════ -->
+<section id="research" class="section-pad">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">Academic</span>
+      <h2 class="section-title">Research &amp; <span>Publications</span></h2>
+      <p class="section-desc">Finding problems and solutions is a passion. My research sits at the intersection of IoT, AI, and real-world impact.</p>
+    </div>
+
+    <!-- Published -->
+    <div class="research-card reveal">
+      <div>
+        <span class="research-badge badge-published">Published · Springer 2022</span>
+        <h3 class="research-title">Roof Garden Irrigation and Drainage Automation Using Microcontroller</h3>
+        <p class="research-meta">Co-Author · IoT · Arduino · Smart Automation · Springer LNNS Series</p>
+        <p style="color: var(--text-muted); font-size: 0.88rem;">
+          An IoT-based system using microcontrollers to automate irrigation and drainage for urban rooftop gardens — reducing water waste and manual effort through smart sensor integration.
+        </p>
+      </div>
+      <a href="https://link.springer.com/chapter/10.1007/978-981-19-5224-1_36" target="_blank" rel="noopener" class="research-link">
+        Read Paper ↗
+      </a>
+    </div>
+
+    <!-- Ongoing 1 -->
+    <div class="research-card reveal">
+      <div>
+        <span class="research-badge badge-ongoing">Ongoing Research</span>
+        <h3 class="research-title">Optimising Digital Marketing Strategies for Startup Business Using AI</h3>
+        <p class="research-meta">Artificial Intelligence · Digital Marketing · Startup Ecosystems</p>
+        <p style="color: var(--text-muted); font-size: 0.88rem;">
+          Investigating how AI-driven strategies can help early-stage startups optimize their digital marketing spend and audience targeting with limited resources.
+        </p>
+      </div>
+      <span class="research-badge badge-ongoing" style="white-space: nowrap;">In Progress</span>
+    </div>
+
+    <!-- Ongoing 2 -->
+    <div class="research-card reveal">
+      <div>
+        <span class="research-badge badge-ongoing">Ongoing Research</span>
+        <h3 class="research-title">AI-Enhanced Learning Systems: A Case Study in Educational Modernization and Misuse Mitigation</h3>
+        <p class="research-meta">Artificial Intelligence · Educational Technology · Ethics · LMS</p>
+        <p style="color: var(--text-muted); font-size: 0.88rem;">
+          Examining how AI tools can modernize learning systems while simultaneously developing frameworks to detect and mitigate academic misuse.
+        </p>
+      </div>
+      <span class="research-badge badge-ongoing" style="white-space: nowrap;">In Progress</span>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     EDUCATION
+═══════════════════════════════════════ -->
+<section id="education" class="section-pad" style="background: var(--bg2);">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">Academic Background</span>
+      <h2 class="section-title">Education</h2>
+    </div>
+
+    <div class="edu-grid reveal">
+      <div class="edu-card featured">
+        <div class="edu-degree">Master of Science</div>
+        <div class="edu-field">Computer Science Engineering · Data Science</div>
+        <div class="edu-school">United International University (UIU)</div>
+        <div class="edu-honor">MSc · Data Science Specialization</div>
+        <div class="edu-meta">
+          <span>May 2023 – Feb 2025</span>
+          <span class="edu-gpa">GPA: 3.56 / 4.00</span>
+        </div>
+      </div>
+
+      <div class="edu-card featured">
+        <div class="edu-degree">Bachelor of Science</div>
+        <div class="edu-field">Computer Science Engineering</div>
+        <div class="edu-school">University of Liberal Arts Bangladesh (ULAB)</div>
+        <div class="edu-honor">Cum Laude · Honor List</div>
+        <div class="edu-meta">
+          <span>Feb 2018 – Oct 2022</span>
+          <span class="edu-gpa">GPA: 3.83 / 4.00</span>
+        </div>
+      </div>
+
+      <div class="edu-card">
+        <div class="edu-degree">HSC — Higher Secondary</div>
+        <div class="edu-field">English Version · Science</div>
+        <div class="edu-school">Dhaka Residential Model College</div>
+        <div class="edu-meta">
+          <span>2015 – 2017</span>
+          <span class="edu-gpa">GPA: 4.17 / 5.00</span>
+        </div>
+      </div>
+
+      <div class="edu-card">
+        <div class="edu-degree">SSC — Secondary</div>
+        <div class="edu-field">English Version · Science</div>
+        <div class="edu-school">BIAM Laboratory School, Naogaon</div>
+        <div class="edu-honor">Perfect Score</div>
+        <div class="edu-meta">
+          <span>2013 – 2015</span>
+          <span class="edu-gpa">GPA: 5.00 / 5.00</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     AWARDS
+═══════════════════════════════════════ -->
+<section id="awards" class="section-pad">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">Recognition</span>
+      <h2 class="section-title">Awards &amp; <span>Achievements</span></h2>
+    </div>
+
+    <div class="awards-grid reveal">
+      <div class="award-card">
+        <div class="award-rank gold">1st</div>
+        <div class="award-title">"In The Shadow" — Game Narrative Design</div>
+        <div class="award-event">IEEE ULAB · CONQUEST 20</div>
+        <div class="award-event">Inter-University Competition · Team 71 Ltd.</div>
+        <div class="award-year">2020</div>
+      </div>
+
+      <div class="award-card">
+        <div class="award-rank silver">2nd</div>
+        <div class="award-title">"H.O.P.E" — Science Fiction Story</div>
+        <div class="award-event">IEEE IUT · PLATFORM R.E.D 0.2</div>
+        <div class="award-event">Partner: Youth Opportunities</div>
+        <div class="award-year">2019</div>
+      </div>
+
+      <div class="award-card">
+        <div class="award-rank" style="font-size: 1.1rem; color: var(--accent3);">Honorable Mention</div>
+        <div class="award-title">"FARMING 2.0" — Project Showcase</div>
+        <div class="award-event">ULAB Tech Fest 2019</div>
+        <div class="award-year">2019</div>
+      </div>
+
+      <div class="award-card">
+        <div class="award-rank bronze">3rd</div>
+        <div class="award-title">"MSD: Mobile Security Device"</div>
+        <div class="award-event">ULAB EEE Department Project Showcase</div>
+        <div class="award-year">2019</div>
+      </div>
+
+      <div class="award-card">
+        <div class="award-rank" style="color: var(--accent2); font-size: 1.3rem;">15+</div>
+        <div class="award-title">Professional Certifications</div>
+        <div class="award-event">Coursera · OpenWeaver · Verified</div>
+        <div class="award-year">2020 – 2022</div>
+      </div>
+
+      <div class="award-card">
+        <div class="award-rank gold" style="font-size: 1.3rem;">Springer</div>
+        <div class="award-title">Published Researcher</div>
+        <div class="award-event">IoT Automation Paper · LNNS Series</div>
+        <div class="award-year">2022</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     CONTACT
+═══════════════════════════════════════ -->
+<section id="contact" class="section-pad" style="background: var(--bg2);">
+  <div class="container">
+    <div class="contact-card reveal">
+      <h2>Let's build something <span style="color: var(--accent);">great</span> together</h2>
+      <p>Whether you need a full-stack developer, a technical educator, or a research collaborator — I'd love to hear from you.</p>
+
+      <div class="contact-links">
+        <a href="https://www.linkedin.com/in/afraim-zahangir/" class="contact-link" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://github.com/Afraim" class="contact-link" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+          GitHub
+        </a>
+        <a href="mailto:afraim.zahangir@gmail.com" class="contact-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Email
+        </a>
+        <a href="tel:+8801715169263" class="contact-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.22 1.2 2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.18 6.18l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          Call
+        </a>
+      </div>
+
+      <button id="copy-email">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+        Copy Email
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════ -->
+<footer>
+  <div class="container">
+    <p>© <span id="current-year"></span> <span>Md. Afraim Bin Zahangir</span> · Built with passion in Dhaka, Bangladesh</p>
+  </div>
+</footer>
+
+<!-- ═══════════════════════════════════════
+     AREAL AI CHAT WIDGET
+═══════════════════════════════════════ -->
+<button id="areal-bubble" aria-label="Chat with Areal, Afraim's AI assistant">
+  🤖
+  <span id="areal-badge"></span>
+</button>
+
+<div id="areal-panel" role="dialog" aria-label="Areal AI Chat">
+  <div class="areal-header">
+    <div class="areal-avatar">🤖</div>
+    <div class="areal-info">
+      <div class="areal-name">Areal</div>
+      <div class="areal-status">Afraim's AI · Online</div>
+    </div>
+    <button id="areal-close" aria-label="Close chat">✕</button>
+  </div>
+
+  <div id="areal-messages" role="log" aria-live="polite"></div>
+
+  <div id="areal-suggestions"></div>
+
+  <div class="areal-input-row">
+    <textarea
+      id="areal-input"
+      rows="1"
+      placeholder="Ask me about Afraim..."
+      aria-label="Your message"
+    ></textarea>
+    <button id="areal-send" disabled aria-label="Send message">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+    </button>
+  </div>
+</div>
+
+<!-- Scripts -->
+<script src="js/knowledge.js"></script>
+<script src="js/areal.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
