@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document.querySelectorAll(`[href="#${e.target.id}"]`).forEach(l => l.classList.add("active"));
       }
     });
-  }, { threshold: 0.35 });
+  }, { threshold: 0.15 });
   sections.forEach(s => observer.observe(s));
 
   // ── Scroll reveal ──────────────────────────────────────────
