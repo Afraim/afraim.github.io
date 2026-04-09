@@ -262,7 +262,5 @@ const AREAL_SUGGESTED_QUESTIONS = [
   "Can Afraim do Python SaaS projects?",
   "What's his experience level?",
   "What client projects has he done?",
-  "Is he available for hire?",
-  "Tell me about his research",
-  "What tech stack does he use?"
+  "Is he available for hire?"
 ];
