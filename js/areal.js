@@ -3,9 +3,6 @@
 // Powered by Groq API (llama-3.3-70b-versatile)
 // ============================================================
 
-const GROQ_API_KEY = "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"; // Replace with your actual key
-const GROQ_MODEL = "llama-3.3-70b-versatile";
-const GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions";
 
 // ── State ────────────────────────────────────────────────────
 let chatHistory = [];
@@ -139,31 +136,27 @@ IMPORTANT FORMATTING RULES:
 - Never fabricate information. If unsure, say "I don't have that specific info, but here's what I know..."
 - Match the user's language exactly.`;
 
-  const response = await fetch(GROQ_API_URL, {
+  const response = await fetch("https://vercel-api-jodd.vercel.app/api/chat", {
     method: "POST",
     headers: {
-      "Content-Type": "application/json",
-      "Authorization": `Bearer ${GROQ_API_KEY}`
+      "Content-Type": "application/json"
     },
     body: JSON.stringify({
-      model: GROQ_MODEL,
-      messages: [
+      history: [
         { role: "system", content: systemPrompt },
         ...history
-      ],
-      max_tokens: 512,
-      temperature: 0.75,
-      stream: false
+      ]
     })
   });
 
-  if (!response.ok) {
-    const err = await response.json();
-    throw new Error(err.error?.message || "Groq API error");
-  }
-
   const data = await response.json();
-  return data.choices[0].message.content.trim();
+
+  if (!response.ok) {
+  console.log("BACKEND ERROR:", data);
+  throw new Error(data.error || "API error");
+}
+
+  return data.reply;
 }
 
 // ── Render messages ───────────────────────────────────────────
