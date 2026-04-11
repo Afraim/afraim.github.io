@@ -3,7 +3,7 @@
 // Powered by Groq API (llama-3.3-70b-versatile)
 // ============================================================
 
-const GROQ_API_KEY = "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"; // Replace with your actual key
+const GROQ_API_KEY = "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"; // Replace with your actual key
 const GROQ_MODEL = "llama-3.3-70b-versatile";
 const GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions";
 
