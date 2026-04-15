@@ -1,7 +1,4 @@
-// ============================================================
-// AREAL — AI Agent for Afraim's Portfolio
-// Powered by Groq API (llama-3.3-70b-versatile)
-// ============================================================
+
 
 const GROQ_MODEL = "llama-3.3-70b-versatile";
 
