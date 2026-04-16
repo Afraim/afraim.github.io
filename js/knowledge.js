@@ -54,51 +54,87 @@ EDUCATION
 ====================
 PROFESSIONAL EXPERIENCE
 ====================
+
 1. Software Developer — AIZ Solutions
-   Period: June 2025 – February 2026 | Type: Full-Time
-   - Developed and deployed HRM and management systems for local and international clients using Django and PostgreSQL
-   - Built and customized SaaS and web applications with Python, JavaScript, HTML, and CSS
-   - Delivered 10+ client websites using WordPress & Elementor with responsive UI and database integration
-   - Collaborated with clients to gather requirements and translate them into scalable software solutions
+Period: June 2025 – February 2026 | Type: Full-Time
 
-1. Website Developer — Rupantok
-   Period: June 2024 – June 2025 | Type: Full-Time Remote
-   - Developed and deployed 15+ production-ready websites for SMEs using WordPress, HTML, CSS, and JavaScript
-   - Built a custom interactive website (MisoVibes) using Tailwind CSS and Vanilla JS for enhanced UX
-   - Worked directly with clients to convert design concepts into high-performance, user-friendly websites
-   - Optimized website performance, responsiveness, and cross-device compatibility
+- Developed and deployed HRM and management systems for local and international clients using Django and PostgreSQL
 
-1. Branch Teacher Leader — Timedoor Coding Academy
-   Period: March 2023 – July 2024 | Type: Part-Time Remote
-   - Led and upskilled 10+ educators in curriculum development
-   - Created and curated dynamic course materials aligned with institutional standards
-   - Implemented monitoring systems to track student progress and address challenges
+- Built and customized SaaS and web applications with Python, JavaScript, HTML, and CSS
 
-2. Online Programming Teacher — Timedoor Coding Academy
-   Period: December 2021 – July 2024 | Type: Part-Time Remote
-   - Delivered 3,500+ classes (both virtual and physical)
-   - Taught Scratch, Construct, HTML, CSS, JavaScript, and Python to young learners
-   - Helped students publish 200+ projects online
+- Delivered 10+ client websites using WordPress & Elementor with responsive UI and database integration
 
-3. Lecturer — United College of Aviation Science and Management
-   Period: August 2023 – December 2023 | Type: Full-Time
-   - Delivered 500+ classes across 10+ subjects to CSE students
-   - Facilitated 10+ skill development sessions
+- Collaborated with clients to gather requirements and translate them into scalable software solutions
 
-4. Teaching Assistant — University of Liberal Arts Bangladesh, Department of CSE
-   Period: November 2020 – May 2022 | Type: Contract
-   - Managed materials for 5 distinct courses
-   - Conducted 500+ classes online and offline
-   - Taught C++, Java, HTML, CSS, JavaScript, Python, and C#
+2. Website Developer — Rupantok
+Period: June 2024 – June 2025 | Type: Full-Time Remote
 
-5. Peer Mentor — ULAB Student Affairs Office
-   Period: September 2019 – April 2020 | Type: Contract
-   - Inducted new students into university culture
-   - Resolved conflicts and addressed disciplinary issues
+- Developed and deployed 15+ production-ready websites for SMEs using WordPress, HTML, CSS, and JavaScript
 
-Total teaching experience: 4+ years
-Total classes delivered: 4,500+
-Students taught: hundreds of young learners and university students
+- Built a custom interactive website (MisoVibes) using Tailwind CSS and Vanilla JS for enhanced UX
+
+- Worked directly with clients to convert design concepts into high-performance, user-friendly websites
+
+- Optimized website performance, responsiveness, and cross-device compatibility
+
+3. Teacher — Green Gems International School
+Period: July 2024 – October 2024 | Type: Full-Time
+
+- Delivered 228 classes from grades 1 to 7
+
+- Created over 200 detailed lesson plans, preparing lessons
+
+- Guided and instructed more than 200 students in the field of ICT and Science
+
+- Performed Managerial, Administrative, and Counselor Duties
+
+4. Branch Teacher Leader — Timedoor Coding Academy
+Period: March 2023 – July 2024 | Type: Part-Time Remote
+
+- Led and upskilled 10+ educators in curriculum development
+
+- Created and curated dynamic course materials aligned with institutional standards
+
+- Implemented monitoring systems to track student progress and address challenges
+
+5. Online Programming Teacher — Timedoor Coding Academy
+Period: December 2021 – July 2024 | Type: Part-Time Remote
+
+- Delivered 3,500+ classes (both virtual and physical)
+
+- Taught Scratch, Construct, HTML, CSS, JavaScript, and Python to young learners
+
+- Helped students publish 200+ projects online
+
+6. Lecturer — United College of Aviation Science and Management
+Period: August 2023 – December 2023 | Type: Full-Time
+
+- Delivered 500+ classes across 10+ subjects to CSE students
+
+- Facilitated 10+ skill development sessions
+
+- Started Python Programming Extra curriculum for all levels
+
+7. Teaching Assistant — University of Liberal Arts Bangladesh, Department of CSE
+Period: November 2020 – May 2022 | Type: Contract
+
+- Managed materials for 5 distinct courses
+
+- Conducted 500+ classes online and offline
+
+- Taught C++, Java, HTML, CSS, JavaScript, Python, and C#
+
+8. Peer Mentor — ULAB Student Affairs Office
+Period: September 2019 – April 2020 | Type: Contract
+
+- Inducted new students into university culture
+
+- Resolved conflicts and addressed disciplinary issues
+
+Total teaching experience: 4.5+ years
+Total classes delivered: 4,728+
+Students taught: Hundreds of young learners and university students (including 200+ at Green Gems)
+Total Projects Made: 40+ Professional and Personal Projects
 
 ====================
 TECHNICAL SKILLS
@@ -252,17 +288,26 @@ QUICK FACTS FOR COMMON QUESTIONS
 
 // Proactive opening messages Areal uses to start conversation
 const AREAL_OPENERS = [
-  "👋 Hey there! I'm Areal — Afraim's AI assistant. Looking for a talented full-stack developer or educator? You're in the right place. What can I tell you about Afraim?",
-  "✨ Hello! I'm Areal. I know everything about Afraim — from his Django projects to his published research. What brings you here today?",
-  "🚀 Hi! I'm Areal, Afraim's personal AI. Whether you're thinking of hiring him, collaborating, or just curious — I'm here to help. Ask me anything!",
-  "💡 Welcome! I'm Areal. Fun fact: Afraim has delivered 4,500+ programming classes AND built production systems for pharma companies. Curious? Ask me more!",
-  "🎯 Hey! I'm Areal — built to tell you all about Afraim. Spoiler: he's a full-stack dev, researcher, educator, and award-winning sci-fi writer. What would you like to know?"
+  "👋 Hi! I'm Areal. I can show you Afraim's full-stack projects, his data science research, or his teaching stats. Where should we start?",
+  "✨ Hello! I’m Areal. Looking for Afraim's Django work, his academic publications, or his student impact? I have all the details.",
+  "🚀 Welcome! I'm Areal. Afraim balances development, research, and education. Which side of his work would you like to explore first?",
+  "💡 Hi there! I can help you navigate Afraim’s journey through software engineering and data science. Want to see his tech stack or his resume?",
+  "🎯 Nice to meet you! I'm Areal. I can pull up Afraim’s GitHub, his Springer research, or his teaching history. What are you looking for today?",
+  "🤝 Hello! I’m Areal. From building HRM systems to mentoring 1,000+ students, Afraim stays busy. How can I help you find what you need?",
+  "🛠️ Hi! I’m Areal. Want to discuss Afraim's technical skills in Python and JS, or his research in AI and IoT? I’m ready when you are.",
+  "💡 Fun fact: Afraim has delivered 4,700+ classes and built production HRM systems. What should we look at first?",
+  "💡 Fun fact: Afraim is a Springer-published researcher and a Cum Laude graduate. Want to see his work?",
+  "💡 Fun fact: Afraim has completed 35+ projects across web dev and IoT. Shall we check his GitHub?",
+  "💡 Fun fact: Afraim holds an MSc in Data Science while working as a Software Developer. Ask me anything!",
+  "💡 Fun fact: Afraim has mentored 1,000+ students and builds Python SaaS products. How can I help?",
+  "💡 Fun fact: Afraim's work spans from AI research to award-winning sci-fi. Want a quick tour?"
 ];
-// Proactive opening messages Areal uses to start conversation
+
+// Refined suggested questions to drive curiosity
 const AREAL_SUGGESTED_QUESTIONS = [
-  "What's his experience level?",
-  "What client projects has he done?",
-  "Is he available for hire?",
-  "Tell me about his research",
-  "What tech stack does he use?"
+  "What is his most impressive project?",
+  "Tell me about his 4.5+ years of teaching.",
+  "Can he build a Python SaaS for me?",
+  "Show me his award-winning sci-fi writing.",
+  "Is he available for a new role?"
 ];
